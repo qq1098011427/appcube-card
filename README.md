@@ -1,4 +1,4 @@
-# sz-card-container
+# 华为 appcube 对接 xm 相关项目
 
 ## Project setup
 ```
@@ -15,10 +15,4 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 把包后自行 解压成zip包 上传 xm后台
