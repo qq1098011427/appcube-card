@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import Card from './card.vue'
+import Card from './index.vue'
 
 Vue.component(Card.name, Card)
