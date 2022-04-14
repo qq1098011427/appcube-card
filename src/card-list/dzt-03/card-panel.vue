@@ -93,6 +93,7 @@ export default {
     },
     handleOpts (e) { // 订阅
       window.xmcard.tvSubUnsub({
+        widgetThis: this.$parent.getWidgetThis(),
         label: this.title,
         widgetType: this.$parent.getCurrentWidgetId(),
         appName: '党政通测试03',

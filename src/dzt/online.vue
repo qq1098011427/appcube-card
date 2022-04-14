@@ -100,6 +100,9 @@ export default {
     };
   },
   async mounted() {
+    // console.log(1)
+    // const host = await window.xm.getAppConfig()
+    // console.log(host , 'host');
     // 解决客户端 窗口全屏导致的BUG
     window.onresize = () => {
       const list = this.subList.length ? this.subList : this.list

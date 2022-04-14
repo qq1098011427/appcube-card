@@ -2,7 +2,6 @@
 import 'tcon'
 
 // dzt 的 为标准模板
-// import Card from './dzt/native.vue' // dzt
 // import Card from './dzt/online.vue' // dzt
 // import Card from './dzt-sort-popup/online.vue' // dzt
 
@@ -14,8 +13,9 @@ import 'tcon'
 
 // import Card from './amap-container' // 高德地圖
 
-import Card from './card-list/small-screen-0002/index.vue'
+// import Card from './card-list/small-screen-0002/index.vue'
 
+import Card from './card-list/dzt-01/index.vue'
 window.Vue.config.productionTip = false
 
 new window.Vue({

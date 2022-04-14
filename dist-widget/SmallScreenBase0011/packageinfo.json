@@ -1,0 +1,27 @@
+{
+    "widgetApi": [
+    {
+        "name": "SmallScreenBase0011"
+    }],
+    "widgetDescription": "The widget from shinemo",
+    "authorName": "shinemo",
+    "localFileBasePath": "",
+    "requires": [
+  {
+    "name": "global_Vue",
+    "version": "100.8.6"
+  },
+  {
+    "name": "t0000000000pisk5ni0cd_xmbase",
+    "version": "1.0.0"
+  },
+  {
+    "name": "t0000000000pisk5ni0cd_xmcard1047",
+    "version": "1.0.0"
+  },
+  {
+    "name": "t0000000000pisk5ni0cd_xmsdk",
+    "version": "1.0.0"
+  }
+]
+}

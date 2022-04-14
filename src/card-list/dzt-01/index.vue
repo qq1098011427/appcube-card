@@ -59,7 +59,11 @@ export default {
     getCurrentWidgetId () {
       // eslint-disable-next-line no-undef
       return thisObj.widget.widgetType
-    }
+    },
+    getWidgetThis () {
+      // eslint-disable-next-line no-undef
+      return thisObj
+    },
   },
   mounted () {
     console.log('12/8 11-42')

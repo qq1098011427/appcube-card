@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>卡片开发模版</title>
-    <script src="sdk-xcx/vue.js"></script>
-    <script src="sdk-xcx/xmmp.min.js"></script>
-    <link rel="stylesheet" href="sdk-xcx/xmbase.css">
-    <link rel="stylesheet" href="sdk-xcx/xmcard.css">
-    <script src="sdk-xcx/xmbase.umd.min.js"></script>
-    <script src="sdk-xcx/xmcard.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 卡片本地相关 -->
+    <script src="sdk/vue.js"></script>
+    <script src="sdk/xmmp.min.js"></script>
+    <link rel="stylesheet" href="sdk/xmbase.css">
+    <link rel="stylesheet" href="sdk/xmcard.css">
+    <script src="sdk/xmbase.umd.min.js"></script>
+    <script src="sdk/xmcard.js"></script>
+    <!--     <script src="sdk/vue.js"></script>-->
+    <!--    通知中台容器自适应-->
+    <script src="sdk/frameMessage_0.0.3.js"></script>
+    <!--    appcube渲染函數-->
+    <script src="sdk/cardrender.js"></script>
+    <!--中台sdk-->
+    <script src="sdk/webUitl.js"></script>
+    <!-- <script src="https://unpkg.com/vue-infinite-scroll@2.0.2/vue-infinite-scroll.js"></script> -->
+    <!--高德-->
+    <!--    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" />-->
+    <!--    <script src="https://webapi.amap.com/maps?v=1.4.15&key=81d7324ddc3db41ff457c628a62fd459"></script>-->
+    <script src="./lib/vconsole.min.js"></script>
 </head>
 <body>
 <noscript>
@@ -18,9 +31,9 @@
         Please enable it to continue.</strong>
 </noscript>
 <div id="app"></div>
-<!-- built files will be auto injected -->
 <script>
-    // var vConsole = new VConsole();
+    var vConsole = new VConsole();
 </script>
+<!-- built files will be auto injected -->
 </body>
 </html>
